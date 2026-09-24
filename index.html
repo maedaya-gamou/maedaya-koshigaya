@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>有限会社前田屋 | ダンボール・包装資材 | 越谷市蒲生</title>
+<meta name="description" content="埼玉県越谷市蒲生の有限会社前田屋。ダンボールケース、包装資材、企画商品、輸入雑貨を取り扱っています。小口から大口までお気軽にご相談ください。">
+<style>
+:root{
+  --ink:#14243d;--ink2:#203a5f;--gold:#b77b35;--cream:#f5f1e8;
+  --line:#e5e1d8;--text:#2d3742;--muted:#69727b;--white:#fff;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Noto Sans JP","Yu Gothic",Meiryo,sans-serif;line-height:1.8;background:#fff}
+a{text-decoration:none;color:inherit}
+.container{max-width:1160px;margin:auto;padding:0 28px}
+.topbar{background:var(--ink);color:#fff;font-size:12px}
+.topbar .container{height:34px;display:flex;justify-content:space-between;align-items:center}
+header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.97);border-bottom:1px solid var(--line);backdrop-filter:blur(8px)}
+.nav{height:84px;display:flex;align-items:center;justify-content:space-between;gap:25px}
+.brand img{width:250px;height:auto;display:block}
+.menu{display:flex;align-items:center;gap:25px;font-size:13px;font-weight:700;color:var(--ink)}
+.menu a:hover{color:var(--gold)}
+.menu .tel{background:var(--ink);color:#fff;padding:10px 17px;border-radius:4px}
+.hero{position:relative;overflow:hidden;background:linear-gradient(120deg,#f7f3eb 0%,#fff 53%,#eef3f7 100%);padding:100px 0 105px}
+.hero:after{content:"";position:absolute;right:-120px;top:-160px;width:520px;height:520px;border:1px solid rgba(20,36,61,.09);border-radius:50%}
+.hero .eyebrow{font-size:12px;letter-spacing:.16em;color:var(--gold);font-weight:800;margin-bottom:17px}
+.hero h1{font-family:Georgia,"Yu Mincho",serif;color:var(--ink);font-size:clamp(38px,5.5vw,70px);line-height:1.2;letter-spacing:.03em;margin:0 0 25px}
+.hero h1 span{display:block;font-size:.43em;letter-spacing:.12em;margin-top:18px;color:var(--ink2)}
+.hero p{max-width:700px;font-size:17px;margin:0 0 30px;color:#48545f}
+.pills{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:27px}.pill{background:#fff;border:1px solid #ddd8ce;padding:5px 13px;border-radius:100px;font-size:12px;font-weight:700}
+.btn{display:inline-flex;align-items:center;gap:8px;background:var(--ink);color:#fff;padding:13px 20px;border-radius:4px;font-weight:800;font-size:14px;margin:3px 7px 3px 0}
+.btn.gold{background:var(--gold)}.btn.light{background:#fff;color:var(--ink);border:1px solid #d8d4ca}
+section{padding:92px 0}
+.eyebrow2{font-size:12px;letter-spacing:.17em;color:var(--gold);font-weight:800}
+h2{font-family:Georgia,"Yu Mincho",serif;color:var(--ink);font-size:clamp(29px,4vw,42px);line-height:1.35;margin:7px 0 30px}
+.lead{font-size:19px;color:var(--ink2);font-weight:700;max-width:820px}
+.paper{background:var(--cream)}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:38px}
+.card{background:#fff;border:1px solid var(--line);padding:28px;border-radius:5px;min-height:190px}
+.card .num{font-family:Georgia,serif;color:var(--gold);font-size:28px}
+.card h3{color:var(--ink);font-size:19px;margin:5px 0 10px}.card p{color:var(--muted);margin:0;font-size:14px}
+.products{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:36px}
+.product{padding:25px 20px;border:1px solid var(--line);background:#fff;border-radius:4px}
+.product h3{margin:0 0 8px;color:var(--ink);font-size:17px}.product p{font-size:13px;color:var(--muted);margin:0}
+.note{margin-top:25px;padding:17px 20px;background:#fff;border-left:4px solid var(--gold);font-size:13px;color:#59636c}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:start}
+.photo-card{background:var(--ink);color:#fff;padding:38px;min-height:100%;position:relative;overflow:hidden}
+.photo-card:after{content:"";position:absolute;width:220px;height:220px;border:1px solid rgba(255,255,255,.18);border-radius:50%;right:-80px;bottom:-80px}
+.photo-card h3{font-family:Georgia,serif;font-size:27px;margin:0 0 15px}.photo-card p{color:#d7dee7;font-size:14px}.photo-card strong{color:#fff}
+.info{width:100%;border-collapse:collapse}.info tr{border-bottom:1px solid var(--line)}.info th,.info td{padding:14px 12px;text-align:left;vertical-align:top}.info th{width:30%;color:var(--ink);font-size:13px}.info td{font-size:14px}
+.center-box{background:#fff;border:1px solid var(--line);padding:34px;margin-top:35px}
+.center-head{display:flex;justify-content:space-between;gap:20px;align-items:start}.center-head h3{font-family:Georgia,serif;color:var(--ink);font-size:27px;margin:0}.center-head .tag{background:var(--cream);padding:5px 11px;font-size:11px;font-weight:800;color:var(--gold)}
+.contact{background:var(--ink);color:#fff;text-align:center;padding:76px 20px}.contact h2{color:#fff;margin-bottom:10px}.contact p{color:#d9e0e8}.contact .phone{font-size:clamp(29px,5vw,45px);font-weight:800;letter-spacing:.03em;margin:18px 0}
+footer{background:#0e1b2e;color:#cdd6df;padding:34px 0;font-size:12px}.footer{display:flex;justify-content:space-between;gap:30px}.footer strong{color:#fff;font-size:15px}
+@media(max-width:850px){
+ .menu{display:none}.nav{height:72px}.brand img{width:215px}
+ .hero{padding:68px 0 75px}.hero:after{display:none}
+ section{padding:65px 0}.cards,.products,.split{grid-template-columns:1fr}
+ .products{gap:10px}.card{min-height:auto}.center-head{display:block}.center-head .tag{display:inline-block;margin-top:10px}
+ .footer{display:block}.footer>div+div{margin-top:20px}.topbar .container{height:auto;min-height:32px}
+}
+</style>
+</head>
+<body>
+<div class="topbar"><div class="container"><span>埼玉県越谷市・蒲生</span><span>営業時間 8:00–17:00 ／ 定休日 日曜・祝日</span></div></div>
+
+<header>
+  <div class="container nav">
+    <a class="brand" href="#"><img src="maedaya_logo_clean.png" alt="有限会社前田屋"></a>
+    <nav class="menu">
+      <a href="#about">前田屋について</a>
+      <a href="#products">取扱商品</a>
+      <a href="#center">デリバリーセンター</a>
+      <a href="#company">会社概要</a>
+      <a class="tel" href="tel:0489894833">TEL 048-989-4833</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="container">
+    <div class="eyebrow">PACKAGING MATERIALS / DANBOARD CASE</div>
+    <div class="pills">
+      <span class="pill">小口から大口まで</span>
+      <span class="pill">ダンボールケース</span>
+      <span class="pill">包装資材</span>
+    </div>
+    <h1>包む、運ぶを<br>もっと身近に。<span>梱包・包装のことなら、有限会社前田屋へ。</span></h1>
+    <p>ダンボールケースを中心に、包装資材・企画商品・輸入雑貨を取り扱っています。地域のお客様から事業者様まで、必要な資材を必要な分だけ。まずはお気軽にご相談ください。</p>
+    <a class="btn" href="tel:0489894833">電話で相談する →</a>
+    <a class="btn gold" href="#products">取扱商品を見る</a>
+  </div>
+</section>
+
+<section id="about">
+<div class="container">
+  <div class="eyebrow2">ABOUT MAEDAYA</div>
+  <h2>「箱がほしい」から、<br>梱包のご相談まで。</h2>
+  <p class="lead">「この商品が入る箱は？」「発送に必要な資材を揃えたい」――そんな身近なご相談に、梱包資材の販売店としてお応えします。</p>
+  <div class="cards">
+    <div class="card"><div class="num">01</div><h3>小口から大口まで</h3><p>少量で必要な方から、継続的に資材を使用する事業者様まで。数量についてお気軽にご相談ください。</p></div>
+    <div class="card"><div class="num">02</div><h3>ダンボールを中心に</h3><p>発送・保管・移動に欠かせないダンボールケースを中心に、包装に必要な資材を取り扱っています。</p></div>
+    <div class="card"><div class="num">03</div><h3>三協商会と提携</h3><p>株式会社三協商会と提携。包装資材を中心とした幅広い商品・物流面のご相談にも対応しています。</p></div>
+  </div>
+</div>
+</section>
+
+<section id="products" class="paper">
+<div class="container">
+  <div class="eyebrow2">PRODUCTS</div>
+  <h2>取扱商品</h2>
+  <div class="products">
+    <div class="product"><h3>ダンボールケース</h3><p>発送・保管・梱包など、用途に合わせたダンボールケース。</p></div>
+    <div class="product"><h3>包装資材</h3><p>商品を安全に包み、運ぶための各種包装資材。</p></div>
+    <div class="product"><h3>企画商品</h3><p>名刺にも記載している企画商品の取り扱い。</p></div>
+    <div class="product"><h3>輸入雑貨</h3><p>包装関連を中心とした輸入雑貨の取り扱い。</p></div>
+  </div>
+  <div class="note">※具体的な商品、サイズ、数量、在庫・納期などは、お電話でお問い合わせください。</div>
+</div>
+</section>
+
+<section id="center">
+<div class="container">
+  <div class="eyebrow2">DELIVERY CENTER</div>
+  <h2>前田屋デリバリーセンター</h2>
+  <div class="center-box">
+    <div class="center-head"><h3>有限会社 前田屋デリバリーセンター</h3><span class="tag">株式会社 三協商会 第一センター内</span></div>
+    <p>越谷市大間野町のデリバリーセンターを拠点に、商品の受け渡し・物流面をサポートしています。</p>
+    <table class="info">
+      <tr><th>所在地</th><td>〒343-0844 埼玉県越谷市大間野町4-129<br>株式会社 三協商会 第一センター内</td></tr>
+      <tr><th>TEL / FAX</th><td>048-988-5355 ／ 048-987-2455</td></tr>
+    </table>
+  </div>
+</div>
+</section>
+
+<section id="company" class="paper">
+<div class="container">
+  <div class="eyebrow2">COMPANY</div>
+  <h2>会社概要</h2>
+  <div class="split">
+    <div>
+      <table class="info">
+        <tr><th>会社名</th><td>有限会社 前田屋</td></tr>
+        <tr><th>代表取締役</th><td>前田 昭彦</td></tr>
+        <tr><th>所在地</th><td>〒343-0838 埼玉県越谷市蒲生3832-7</td></tr>
+        <tr><th>TEL</th><td><a href="tel:0489894833">048-989-4833（代表）</a></td></tr>
+        <tr><th>FAX</th><td>048-989-2610</td></tr>
+        <tr><th>営業時間</th><td>8:00〜17:00</td></tr>
+        <tr><th>定休日</th><td>日曜・祝日</td></tr>
+        <tr><th>最寄り駅</th><td>東武伊勢崎線（東武スカイツリーライン）<br>蒲生駅 西口から徒歩約9分</td></tr>
+      </table>
+    </div>
+    <div class="photo-card">
+      <h3>地域の仕事を、<br>丁寧に。</h3>
+      <p>有限会社前田屋は、埼玉県越谷市・蒲生を拠点に、ダンボールケース・包装資材などを取り扱っています。</p>
+      <p><strong>代表取締役　前田 昭彦</strong></p>
+      <p style="margin-top:25px"><span style="font-size:12px;letter-spacing:.12em">代表直通</span><br><a href="tel:09035391158" style="font-size:24px;font-weight:800">090-3539-1158</a></p>
+    </div>
+  </div>
+</div>
+</section>
+
+<section class="contact">
+<div class="container">
+  <div class="eyebrow2" style="color:#d7a15e">CONTACT</div>
+  <h2>梱包資材のことなら、<br>まずはお電話ください。</h2>
+  <p>小口から大口まで。商品・数量・用途など、お気軽にご相談ください。</p>
+  <div class="phone"><a href="tel:0489894833">048-989-4833</a></div>
+  <a class="btn" href="tel:0489894833">電話をかける →</a>
+</div>
+</section>
+</main>
+
+<footer>
+<div class="container footer">
+  <div><strong>有限会社 前田屋</strong><br>〒343-0838 埼玉県越谷市蒲生3832-7<br>TEL 048-989-4833 ／ FAX 048-989-2610</div>
+  <div>営業時間 8:00〜17:00<br>定休日 日曜・祝日<br><br>© Maedaya Co., Ltd. All Rights Reserved.</div>
+</div>
+</footer>
+</body>
+</html>
